@@ -12,7 +12,7 @@ JavaScript Quiz App: An interactive quiz application built with vanilla JavaScri
 Weather App: A dynamic weather app that fetches and displays weather data using APIs.
 To-Do List: A functional to-do list application with features to add, edit, and delete tasks.
 How to Explore
-Clone the Repository: git clone https://github.com/yourusername/front-end-projects.git
+Clone the Repository: git clone https://github.com/janassalem/front-end-projects.git
 Browse the Projects: Navigate through the project folders to explore the code and documentation.
 View Live Demos: Check out the live demos linked in each project's README to see them in action.
 Dive into the Code: Examine the code, understand the implementations, and get inspired.
