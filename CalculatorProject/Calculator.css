@@ -1,33 +1,58 @@
-﻿
+﻿/* Calculator.css */
+
 body {
-    background-color: #e0f7fa; 
+    background-color: #e0f7fa; /* Light Teal */
     font-family: "Roboto", sans-serif;
 }
 
 .container {
     max-width: 400px;
+    margin: 10% auto; /* Center the container */
 }
 
 .glassmorphism-calculator {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(8px);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.result-screen {
+    background-color: #b2ebf2; /* Lighter Teal */
+    color: #004d40; /* Darker Teal for Text */
+    padding: 1rem;
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-radius: 0.75rem;
+    animation: fadeIn 0.5s ease;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
 }
 
 .calculator-button {
+    background-color: #00838f; /* Darker Teal */
+    color: #ffffff; /* Button Text Color */
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-weight: bold;
     transition: background-color 0.3s, transform 0.2s;
-    background-color: #00838f; 
-    color: #ffffff; 
 }
 
     .calculator-button:hover {
-        background-color: #006064; 
+        background-color: #006064; /* Even Darker Teal on Hover */
         transform: scale(1.05);
     }
 
-.result-screen {
-    animation: fadeIn 0.5s ease;
-    background-color: #b2ebf2; 
-    color: #004d40; 
+.equals-button {
+    background-color: #43a047; /* Green Button */
+    grid-column: span 2;
 }
 
 @keyframes fadeIn {
