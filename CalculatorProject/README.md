@@ -1,5 +1,5 @@
  Calculator App
-Experience the Jabna Calculator App: a sophisticated yet user-friendly tool crafted with HTML, CSS, and JavaScript. Perform quick calculations effortlessly with its intuitive interface.
+Experience the  Calculator App: a sophisticated yet user-friendly tool crafted with HTML, CSS, and JavaScript. Perform quick calculations effortlessly with its intuitive interface.
 
 Features:
 Perform addition, subtraction, multiplication, and division operations.
